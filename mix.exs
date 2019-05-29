@@ -29,9 +29,9 @@ defmodule Samly.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps() do
     [
-      {:plug, "~> 1.6"},
+      {:plug, "~> 1.0"},
       {:esaml, "~> 4.2"},
-      {:sweet_xml, "~> 0.6.6"},
+      {:sweet_xml, "~> 0.6.5"},
       {:ex_doc, "~> 0.19.0", only: :dev, runtime: false},
       {:inch_ex, "~> 1.0", only: [:dev, :test]}
     ]
